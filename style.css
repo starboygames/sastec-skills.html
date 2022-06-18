@@ -1,0 +1,51 @@
+.first_title{
+    font-size: 50px;
+    background-color: purple;
+    
+}
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.third{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+    
+}
+
+
+
+.form_container{
+    width: 500px;
+}
+
+.name_container{
+display: flex;
+gap: 10px;
+
+}
+
+.emaol_container{
+width: 100%;
+}
+
+.button_container{
+    width: 100%;
+    display: flex;
+    
+}
+
+
+
+
