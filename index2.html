@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>sastec skills</title>
+    <meta title="sastec skills"/>
+    <meta keyword="sastec,skills,academy" />
+    <link rel="stylesheet" href="style.css">
+    <script language="javascript">
+
+        function tester()
+        {
+
+            if(document.f.name.value.length<3)
+            alert("invalid name")
+
+            
+            if(document.f.lastname.value.length<3)
+            alert("invalid last name")
+
+            
+            if(document.f.email.value.indexOf('@')==-1 || document.f.email.value.indexOf('.')==-1)
+            alert("invalid email")
+
+
+
+        }
+
+    </script>
+
+</head>
+<body>
+<ul>
+    <nav class="logo">
+    <img src="tent.png" id="tent"> 
+    <h1 class="logotitle">Sastec skills</h1>
+    </nav>
+
+    <nav class="navbar">
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    
+</nav>
+<div class="navbar_icon">
+    <img src="menu_icon.png" alt="">
+</div>
+</ul> 
+   
+<div class="formbody">
+<form action="" class="form_container" name="f">
+    <div class="headform"> 
+    Contact Us
+    </div>
+    <div class="first">
+        <input  class="name" placeholder="name">
+        <input class="last_name" placeholder="last name">
+    </div>
+    <div class="second">
+        <input class="email_container" placeholder="email" >
+    </div>
+    <div class="third">
+    <button  onclick='tester()'>Send</button>
+    </div>
+</div>
+
+
+
+</body>
+<html>
