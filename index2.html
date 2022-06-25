@@ -4,28 +4,7 @@
     <meta title="sastec skills"/>
     <meta keyword="sastec,skills,academy" />
     <link rel="stylesheet" href="style.css">
-    <script language="javascript">
-
-        function tester()
-        {
-
-            if(document.f.name.value.length<3)
-            alert("invalid name")
-
-            
-            if(document.f.lastname.value.length<3)
-            alert("invalid last name")
-
-            
-            if(document.f.email.value.indexOf('@')==-1 || document.f.email.value.indexOf('.')==-1)
-            alert("invalid email")
-
-
-
-        }
-
-    </script>
-
+    <script src="script1.js"></script>
 </head>
 <body>
 <ul>
@@ -51,14 +30,14 @@
     Contact Us
     </div>
     <div class="first">
-        <input  class="name" placeholder="name">
-        <input class="last_name" placeholder="last name">
+        <input  class="name" placeholder="name" id="name">
+        <input class="last_name" placeholder="last name" id="lastname">
     </div>
     <div class="second">
-        <input class="email_container" placeholder="email" >
+        <input class="email_container" placeholder="email" id="email" >
     </div>
     <div class="third">
-    <button  onclick='tester()'>Send</button>
+    <button  onclick='OnClick()' type="button">Send</button>
     </div>
 </div>
 
